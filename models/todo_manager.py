@@ -26,8 +26,6 @@ class ToDoManager:
         """
         rows = self.db.get_all_tasks()
         
-        print(rows)
-        
         tasks = []
 
         for row in rows:
